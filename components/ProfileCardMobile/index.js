@@ -1,18 +1,33 @@
 import React from 'react';
-import { Paper, Typography } from '@material-ui/core';
+import { Grid, Paper, Typography } from '@material-ui/core';
 
 import { useStyles } from './style';
 import ImageMobile from '../ImageMobile';
+
+import LinkBarMobile from '../LinkBarMobile';
 
 function ProfileCardMobile() {
 
     const classes = useStyles();
 
     return (
-        <Paper className={classes.textContainer}>
+        <Paper className={classes.container}>
             <ImageMobile />
-            <Typography variant={"h2"} component={"h1"}>Ulla Gjeset Schjølberg</Typography>
-            <Typography variant={"h5"} component={"p"}>Frontend-utvikler og journalist.</Typography>
+            <Grid 
+            container 
+            className={classes.textContainer}
+            direction="column"
+            >
+                <Grid item>
+                    <Typography variant={"h2"} component={"h1"}>Ulla Gjeset Schjølberg</Typography>
+                </Grid>
+                <Grid item>
+                    <Typography variant={"h4"} component={"p"}>Frontend-utvikler og journalist.</Typography>
+                </Grid> 
+            </Grid>
+            <Grid container>
+                    <LinkBarMobile />
+            </Grid> 
         </Paper>
     );
 }

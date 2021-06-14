@@ -1,6 +1,5 @@
 import { Grid } from '@material-ui/core';
 import React from 'react';
-import ImageMobile from '../ImageMobile';
 import ProfileCardMobile from '../ProfileCardMobile';
 import { useStyles } from './style';
 
