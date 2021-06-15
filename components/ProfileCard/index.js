@@ -9,7 +9,7 @@ function ProfileCard() {
     const classes = useStyles();
     return (
         <div>
-            <Typography component={'h1'} variant={'h2'} color="secondary">
+            <Typography className={classes.title} component={'h1'} variant={'h2'} color="secondary">
                 Ulla Gjeset Schjølberg
             </Typography>
             <Typography component={'p'} variant={'h5'} color="secondary">

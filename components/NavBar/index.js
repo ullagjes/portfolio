@@ -28,7 +28,7 @@ function NavBar() {
     }
 
     return (
-        <>{smallScreen ? 
+        <header>{smallScreen ? 
         <nav className={`${classes.navContainer} + ${classes.mobileNavContainer}`}>
             {!open ?
             <IconButton onClick={handleOpen}>
@@ -65,7 +65,7 @@ function NavBar() {
         <Link href="#" onClick={preventDefault} className={classes.navLink}>Portfolio</Link>
         </nav> 
         }
-        </>
+        </header>
     );
 }
 

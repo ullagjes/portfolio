@@ -9,12 +9,15 @@ export const useStyles = makeStyles((theme) => ({
         gap: theme.spacing(6),
         padding: theme.spacing(3),
         position: 'fixed',
+        top: 0,
+        zIndex: 2,
     },
     navLink: {
         fontSize: 25,
     },
     mobileNavContainer: {
-        color: 'white'
+        color: 'white',
+        height: '10%',
     },
     modal: {
         display: 'flex',

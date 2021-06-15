@@ -6,6 +6,9 @@ export const useStyles = makeStyles((theme) => ({
         width: '30%',
         backgroundColor: theme.palette.hover.main,
         marginTop: theme.spacing(4)
-    }
+    },
+    title: {
+        marginBottom: 20,
+    },
     
 }))
