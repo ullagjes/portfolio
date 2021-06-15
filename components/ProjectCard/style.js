@@ -3,9 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 export const useStyles = makeStyles((theme) => ({
     cardContainer: {
         width: '100%',
-        maxWidth: '800px',
+        maxWidth: '350px',
         background: 'linear-gradient(90deg, rgba(231,231,231,1) 0%, rgba(255,255,255,1) 10%, rgba(241,241,241,1) 90%, rgba(231,231,231,1) 100%)',
-
+        marginTop: theme.spacing(4),
+        marginRight: theme.spacing(3),
+        marginLeft: theme.spacing(1),
     },
     linkContainer: {
         display: 'flex',
@@ -16,13 +18,16 @@ export const useStyles = makeStyles((theme) => ({
         paddingTop: theme.spacing(1),
         paddingBottom: theme.spacing(1),
     },
+    textContainer: {
+        textAlign: 'left'
+    },
     media: {
         objectFit: 'cover',
         marginBottom: theme.spacing(2),
         border: `5px solid ${theme.palette.primary.dark}`
     },
     largeMedia: {
-        height: 600,
+        height: 250,
     },
     smallMedia: {
         height: 250,

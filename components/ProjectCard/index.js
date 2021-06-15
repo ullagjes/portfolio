@@ -67,8 +67,10 @@ function ProjectCard({
                         </Fade>
                     </div>
                 </CardActionArea>
-                <Typography gutterBottom component='h2' variant='h3'>{title}</Typography>
-                <Typography component='p' variant='body1'>{description}</Typography>
+                <div className={classes.textContainer}>
+                    <Typography gutterBottom component='h2' variant='h4'>{title}</Typography>
+                    <Typography component='p' variant='body1'>{description}</Typography>
+                </div>
                 <CardActionArea className={classes.linkContainer} href={href}>
                     <GitHubIcon />
                     <Link href={href}>    

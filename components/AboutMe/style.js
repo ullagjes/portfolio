@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
     container: {
-        height: '100vh',
+        height: 'auto',
         width: '100vw',
         backgroundColor: theme.palette.secondary.main,
         marginTop: 10,

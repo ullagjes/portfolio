@@ -4,8 +4,17 @@ export const useStyles = makeStyles((theme) => ({
     container: {
         marginTop: theme.spacing(5),
         backgroundColor: theme.palette.secondary.main,
-        width: '100vw',
-        height: 'auto',
+
+    },
+    projectContainer: {
+        marginTop: theme.spacing(6),
+        textAlign: 'center',
+    },
+
+    projectGrid: {
+        width: '90vw',
+        marginLeft: 'auto',
+        marginRight: 'auto',
     },
 
     box: {

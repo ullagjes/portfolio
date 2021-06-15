@@ -11,6 +11,7 @@ export const useStyles = makeStyles((theme) => ({
         position: 'fixed',
         top: 0,
         zIndex: 2,
+        boxShadow: '0px 0px 30px -3px rgba(0,0,1,0.81)',
     },
     navLink: {
         fontSize: 25,
