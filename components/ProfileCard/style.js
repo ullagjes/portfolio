@@ -9,6 +9,7 @@ export const useStyles = makeStyles((theme) => ({
     },
     title: {
         marginBottom: 20,
+        color: 'black',
     },
     
 }))
