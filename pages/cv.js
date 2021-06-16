@@ -3,7 +3,7 @@ import React from 'react';
 import CardComponent from '../components/CardComponent';
 
 import NavBar from '../components/NavBar';
-import { experience, education } from '../data';
+import { experience, education } from '../Data';
 import { useStyles } from '../styles/style';
 
 function Cv() {
