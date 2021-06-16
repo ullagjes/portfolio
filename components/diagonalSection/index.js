@@ -2,7 +2,7 @@ import React from 'react';
 import { useStyles } from './style';
 import { useMediaQuery } from '@material-ui/core';
 
-function diagonalSection({children}) {
+function DiagonalSection({children}) {
 
   const classes = useStyles();
   const mediumScreen = useMediaQuery(`(max-width:800px)`)
@@ -14,4 +14,4 @@ function diagonalSection({children}) {
     );
 }
 
-export default diagonalSection;
+export default DiagonalSection;

@@ -2,7 +2,7 @@
 import { useMediaQuery } from '@material-ui/core'
 import Head from 'next/head'
 import AboutMe from '../components/AboutMe'
-import diagonalSection from '../components/diagonalSection'
+import DiagonalSection from '../components/diagonalSection';
 import NavBar from '../components/NavBar'
 import ProfileLarge from '../components/ProfileLarge'
 import ProfileSmall from '../components/ProfileSmall'
@@ -20,13 +20,13 @@ export default function Home() {
 
       </Head>
       <NavBar />
-        <diagonalSection>
+        <DiagonalSection>
           {!mediumScreen ? 
           <ProfileLarge />
           : 
           <ProfileSmall />
           }
-        </diagonalSection>
+        </DiagonalSection>
         <AboutMe />
     </>
   )
