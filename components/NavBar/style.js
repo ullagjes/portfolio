@@ -2,7 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme) => ({
     navContainer: {
-        backgroundColor: 'white',
+        backgroundColor: theme.palette.hover.main,
         width: '100%',
         display: 'flex',
         justifyContent: 'flex-end',

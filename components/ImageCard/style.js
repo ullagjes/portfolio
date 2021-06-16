@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme) => ({
         height: 250,
         width: 250,
         borderRadius: '50%',
-        border: `5px solid ${theme.palette.primary.dark}`,
+        border: `5px solid ${theme.palette.primary.main}`,
         objectFit: 'cover',
         filter: 'grayscale(100%)'
     },

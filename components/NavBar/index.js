@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+
 import { 
     Backdrop, 
     Fade, 
@@ -14,10 +16,10 @@ import { useStyles } from './style';
 
 function NavBar() {
 
+    const router = useRouter();
     const classes = useStyles();
     const smallScreen = useMediaQuery(`(max-width:600px)`)
     const [open, setOpen] = useState(false);
-    const preventDefault = (event) => event.preventDefault();
 
     function handleOpen(){
         setOpen(true)
@@ -51,18 +53,18 @@ function NavBar() {
             >
                 <Fade in={open}>
                     <div className={classes.paper}>
-                        <Link href="#" onClick={preventDefault} className={classes.navLinkMobile}>Hjem</Link>
-                        <Link href="#" onClick={preventDefault} className={classes.navLinkMobile}>CV</Link>
-                        <Link href="#" onClick={preventDefault} className={classes.navLinkMobile}>Portfolio</Link>
+                        <Link href='/' className={classes.navLinkMobile}>Hjem</Link>
+                        <Link href='/cv' className={classes.navLinkMobile}>CV</Link>
+                        <Link href='/portfolio' className={classes.navLinkMobile}>Portfolio</Link>
                     </div>
                 </Fade>
             </Modal>
         </nav>
         : 
         <nav className={classes.navContainer}>
-        <Link href="#" onClick={preventDefault} className={classes.navLink}>Hjem</Link>
-        <Link href="#" onClick={preventDefault} className={classes.navLink}>CV</Link>
-        <Link href="#" onClick={preventDefault} className={classes.navLink}>Portfolio</Link>
+            <Link href='/' className={classes.navLink}>Hjem</Link>
+            <Link href='/cv' className={classes.navLink}>CV</Link>
+            <Link href='/portfolio' className={classes.navLink}>Portfolio</Link>
         </nav> 
         }
         </header>

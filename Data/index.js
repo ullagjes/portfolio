@@ -56,25 +56,11 @@ export const badges = [
 
 export const experience = [
     {
-        title: 'Praktikant',
+        title: 'Assisterende redaksjonssjef og kronikkredaktør',
         company: 'forskning.no',
-        start: 'Okt 2013',
-        end: 'Des 2013',
-        details: [],
-    },
-    {
-        title: 'Journalist og redaksjonssekretær',
-        company: 'forskning.no',
-        start: 'Sep 2015',
-        end: 'Jan 2017',
-        details: ['Produsere innhold med bred appell for alle som er interesserte i forskning', 'Moderere kommentarfelt', 'Ansvar for sciencenordic.com', 'Lage Google Analytics-rapporter'],
-    },
-    {
-        title: 'Redigerer',
-        company: 'forskning.no',
-        start: 'Jan 2017',
-        end: 'Aug 2019',
-        details: ['Ansvarlig for partnerinnhold i forskning.no', 'Tilpasse tekst for forskning.nos format', 'Opprettholde en god relasjon mellom forskning.no og nettavisens eiere', 'Samarbeid med markedsavdelingen for å utvikle og gjennomføre seminar og kurs'],
+        start: 'Feb 2020',
+        end: 'Aug 2020',
+        details: ['Ansvarlig for daglig redaksjonelt innhold i forskning.no', 'Lede og følge opp en redaksjon journalister, tidvis under lockdown', 'Tilpasse og publisere innhold til SoMe', 'Vurdere og publisere artikler fra frilansere', 'Vurdere og publisere innsendte kronikker', 'Følge opp og veilede eksterne skribenter', 'Ansvar for forskning.nos blogg-sider'],
     },
     {
         title: 'Journalist',
@@ -84,11 +70,25 @@ export const experience = [
         details: ['Produsere artikler for forskning.no'],
     },
     {
-        title: 'Assisterende redaksjonssjef og kronikkredaktør',
+        title: 'Redigerer',
         company: 'forskning.no',
-        start: 'Feb 2020',
-        end: 'Aug 2020',
-        details: ['Ansvarlig for daglig redaksjonelt innhold i forskning.no', 'Lede og følge opp en redaksjon journalister, tidvis under lockdown', 'Tilpasse og publisere innhold til SoMe', 'Vurdere og publisere artikler fra frilansere', 'Vurdere og publisere innsendte kronikker', 'Følge opp og veilede eksterne skribenter', 'Ansvar for forskning.nos blogg-sider'],
+        start: 'Jan 2017',
+        end: 'Aug 2019',
+        details: ['Ansvarlig for partnerinnhold i forskning.no', 'Tilpasse tekst for forskning.nos format', 'Opprettholde en god relasjon mellom forskning.no og nettavisens eiere', 'Samarbeid med markedsavdelingen for å utvikle og gjennomføre seminar og kurs'],
+    },
+    {
+        title: 'Journalist og redaksjonssekretær',
+        company: 'forskning.no',
+        start: 'Sep 2015',
+        end: 'Jan 2017',
+        details: ['Produsere innhold med bred appell for alle som er interesserte i forskning', 'Moderere kommentarfelt', 'Ansvar for sciencenordic.com', 'Lage Google Analytics-rapporter'],
+    },
+    {
+        title: 'Praktikant',
+        company: 'forskning.no',
+        start: 'Okt 2013',
+        end: 'Des 2013',
+        details: [],
     },
 ]
 
@@ -98,7 +98,7 @@ export const education = [
         company: 'Fagskolen Kristiania',
         start: 'Aug 2020',
         end: 'Jun 2021',
-        details: ['HTML', 'CSS', 'JavaScript', 'React', 'React Native', 'FireBase', 'MapBox', 'Plotly', 'Git/GitHub']
+        details: ['Nominert til årets Gullspire', 'HTML', 'CSS', 'JavaScript', 'React', 'React Native', 'FireBase', 'MapBox', 'Plotly', 'Git/GitHub']
     },
     {
         title: 'Bachelor i journalistikk',

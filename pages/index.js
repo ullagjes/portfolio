@@ -1,7 +1,8 @@
 
 import { useMediaQuery } from '@material-ui/core'
 import Head from 'next/head'
-import DiagonalSection from '../components/diagonalSection'
+import AboutMe from '../components/AboutMe'
+import DiagonalSection from '../components/DiagonalSection'
 import NavBar from '../components/NavBar'
 import ProfileLarge from '../components/ProfileLarge'
 import ProfileSmall from '../components/ProfileSmall'
@@ -25,8 +26,8 @@ export default function Home() {
           : 
           <ProfileSmall />
           }
-          
         </DiagonalSection>
+        <AboutMe />
     </>
   )
 }

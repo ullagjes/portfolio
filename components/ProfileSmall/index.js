@@ -19,7 +19,6 @@ function ProfileSmall(props) {
                 <ProfileCardMobile />
             </Grid>
         </Grid>
-        <AboutMe />
         </>
     );
 }

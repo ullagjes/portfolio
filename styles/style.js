@@ -13,6 +13,7 @@ export const useStyles = makeStyles((theme) => ({
 
     projectGrid: {
         width: '90vw',
+        maxWidth: '1200px',
         marginLeft: 'auto',
         marginRight: 'auto',
     },

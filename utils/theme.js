@@ -9,13 +9,13 @@ let theme = createMuiTheme({
 
     palette: {
         primary: {
-            main: '#000',
+            main: '#1c1c1c',
         },
         secondary: {
-            main: '#fafafa',
+            main: '#f2f2f2',
         },
         hover: {
-            main: '#ff69b4',
+            main: '#fc03f4',
             
         }
         

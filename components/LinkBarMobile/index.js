@@ -10,11 +10,11 @@ function LinkBarMobile() {
     const classes = useStyles();
     return (
             <Paper className={classes.linkContainer}>
-                <IconButton className={classes.icon} aria-label="github-profile">
-                    <GitHubIcon size={100}/>
+                <IconButton href="https://github.com/ullagjes" className={classes.icon} aria-label="github-profile">
+                    <GitHubIcon color="primary" />
                 </IconButton>
-                <IconButton className={classes.icon} aria-label="linkedin-profile">
-                    <LinkedInIcon />
+                <IconButton href='https://www.linkedin.com/in/ulla-gjeset-schj%C3%B8lberg-4037aab8/' className={classes.icon} aria-label="linkedin-profile">
+                    <LinkedInIcon color="primary" />
                 </IconButton>
             </Paper>
     );

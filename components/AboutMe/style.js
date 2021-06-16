@@ -4,6 +4,7 @@ export const useStyles = makeStyles((theme) => ({
     container: {
         height: 'auto',
         width: '100vw',
+        maxWidth: '100vw',
         backgroundColor: theme.palette.secondary.main,
         marginTop: 10,
         padding: theme.spacing(3),
@@ -14,7 +15,10 @@ export const useStyles = makeStyles((theme) => ({
         width: 70,
     },
     iconContainer: {
-        width: '70vw',
+        display: 'flex',
+        justifyContent: 'space-between',
+        gap: 35,
+        width: '70%',
         marginRight: 'auto',
         marginLeft: 'auto',
     },
@@ -27,7 +31,7 @@ export const useStyles = makeStyles((theme) => ({
         marginBottom: theme.spacing(5),
     },
     textContainer: {
-        width: '90vw',
+        width: '70%',
         height: '40%',
         marginRight: 'auto',
         marginLeft: 'auto',
@@ -37,7 +41,7 @@ export const useStyles = makeStyles((theme) => ({
     title: {
         marginRight: 'auto',
         marginLeft: 'auto',
-        marginBottom: theme.spacing(3),
+        marginBottom: theme.spacing(2),
     }
 
 }))

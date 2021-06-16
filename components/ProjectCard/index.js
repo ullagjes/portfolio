@@ -71,11 +71,9 @@ function ProjectCard({
                     <Typography gutterBottom component='h2' variant='h4'>{title}</Typography>
                     <Typography component='p' variant='body1'>{description}</Typography>
                 </div>
-                <CardActionArea className={classes.linkContainer} href={href}>
+                <CardActionArea className={classes.linkContainer} href={href} component="a">
                     <GitHubIcon />
-                    <Link href={href}>    
-                        <a>Lenke til repo.</a>
-                    </Link>
+                    <p>Lenke til repo.</p>
                 </CardActionArea>
                     
             </CardContent>
