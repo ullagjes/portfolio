@@ -1,10 +1,12 @@
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, Typography, useMediaQuery } from '@material-ui/core';
 import React from 'react';
 import { badges } from '../../Data';
 import { useStyles } from './style';
 
 function AboutMe() {
     const classes = useStyles()
+    const smallScreen = useMediaQuery(`(max-width:400px)`)
+
     return (
         <section className={classes.container}>
             <div className={classes.textContainer}>
@@ -19,12 +21,14 @@ function AboutMe() {
                 <div className={classes.line}></div>
                 <Grid 
                 container
-                className={classes.iconContainer}
+                direction='row'
+                justify='space-between'
+                spacing={2}
                 >
                     {badges.map((i, index) => {
                         return(
-                            <Grid item key={index} sm={2} md={1}>
-                                <div dangerouslySetInnerHTML={{__html: i.code}} className={classes.icon}/>
+                            <Grid item xs={6} sm={4} md={1} key={index}>
+                                <div dangerouslySetInnerHTML={{__html: i.code}} />
                             </Grid>
                         )
                     })}
